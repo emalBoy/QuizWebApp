@@ -1,0 +1,140 @@
+html,body {
+    margin: 0;
+    background-image: linear-gradient(215deg , rgb(0, 0, 121) , rgb(52, 174, 127));
+    height: 100%;
+}
+
+.title {
+    user-select: none;
+    border-radius: 0px 0px 40px 40px;
+    border-bottom: 2px solid white;
+    font-family: 'berlin sans fb';
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: darkblue;
+    font-size: 85px;
+}
+
+.app {
+    padding: 20px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-top: 55px;
+}
+
+.appBox {
+    background-color: rgb(79, 0, 107);
+    border-radius: 20px;
+    border: 2px solid aqua;
+    border-top: 2px solid white;
+    height: auto;
+    padding: 0px;
+    padding-bottom: 20px;
+    min-height: 400px;
+    transition: 700ms;
+}
+
+.score {
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    font-size: 35px;
+    font-family: 'courier new';
+    font-weight: bold;
+}
+
+.questionArea {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    user-select: none;
+    color: white;
+    font-size: 55px;
+    font-family: 'times new roman';
+}
+
+.answerArea {
+    text-align: -moz-center;
+    display: block;
+}
+
+.button {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    font-size: 45px;
+    margin-top: 6px;
+    padding: 12px 0px 12px 0px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgb(95, 255, 234);
+    color: black;
+    cursor: pointer;
+    width: 90%;
+    transition: 0ms;
+}
+
+.button:hover {
+    background-color: rgb(0, 63, 99);
+    color: white;
+}
+
+.button:active {
+    background-color: rgb(0, 63, 99);
+    color: white;
+}
+
+.submitArea {
+    text-align: -moz-center;
+}
+
+.container {
+    transition: 500ms;
+}
+
+.p1 , .p2 {
+    color: white;
+}
+
+.p1 {
+    font-size: 65px;
+    margin-bottom: 0;
+    margin-top: 80px;
+}
+
+.p1 , .p2 {
+    font-family: 'courier new' , 'times new roamn';
+}
+
+.p2 {
+    margin: 0;
+    font-size: 135px;
+    color: #65ffff;
+}
+
+.QandA {
+    transition: 200ms;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 650px){
+    .title {
+        font-size: 55px;
+    }
+    .button {
+        font-size: 30px;
+    }
+    .questionArea {
+        font-size: 45px;
+    }
+    .p1 {
+        margin-top: 130px;
+        font-size: 45px;
+    }
+    .p2 {
+        font-size: 80px;
+    }
+}
